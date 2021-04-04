@@ -1,0 +1,173 @@
+* {
+  box-sizing:border-box;
+}
+
+.box1 {
+  background-color: #ADD8E6;
+	background-repeat:no-repeat;
+	background-size:55%;
+	background-image:url(img12/jose.jpg);
+	background-position: top 10% center;
+    padding:20px;
+	height:500px;
+	float:left;
+	width:49.5%;
+	margin-right: 0.5%;
+	margin-top: 0.5%;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.box2 {
+	background-color:#B0C4DE;
+	background-repeat:no-repeat;
+	background-size:60%;
+	background-image:url(img12/independence.jpg);
+	background-position: top 10% center;
+	height:500px;
+	padding:20px;
+	float:left;
+	width:49.9%;
+	margin-top: 0.5%;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.box3 {
+	background-color:#87CEFA;
+	background-repeat:no-repeat;
+	background-size:60%;
+	background-image:url(img12/UP.jpg);
+	background-position: top 10% center;
+	height:600px;
+	padding:20px;
+	float:left;
+	width:100%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.box4 {
+  background-color: #ADD8E6;
+  	background-repeat:no-repeat;
+	background-size:80%;
+	background-image:url(img12/palawan.jpg);
+	background-position: top 10% center;
+	padding:20px;
+	height:600px;
+	float:left;
+	width:33%;
+	margin-top: 1%;
+	margin-right: 0.5%;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.box5 {
+  background-color: #B0C4DE;
+  	background-repeat:no-repeat;
+	background-size:80%;
+	background-image:url(img12/mayon.jpg);
+	background-position: top 10% center;
+	height:600px;
+	padding:20px;
+	float:left;
+	width:33%;
+	text-align: center;
+	margin-top: 1%;
+    margin-right: 0.5%;
+	overflow-wrap: break-word;
+}
+
+.box6 {
+	background-color: #ADD8E6;
+  	background-repeat:no-repeat;
+	background-size:80%;
+	background-image:url(img12/crisologo.jpg);
+	background-position: top 10% center;
+	height:600px;
+	padding:20px;
+	float:left;
+	width:33%;
+	margin-top: 1%;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.box7 {
+	background-color:  #B0C4DE;
+	background-repeat:no-repeat;
+	background-size:60%;
+	background-image:url(img12/adobo.jpg);
+	background-position: top 10% center;
+	height:400px;
+	padding:20px;
+	float:left;
+	width:24.5%;
+	text-align: center;
+	margin-top: 1%;
+    margin-right: 0.5%;
+	overflow-wrap: break-word;
+}
+
+.box8 {
+	background-color:#ADD8E6;
+ 	background-repeat:no-repeat;
+	background-size:60%;
+	background-image:url(img12/sisig.jpg);
+	background-position: top 10% center;
+	height:400px;
+	padding:20px;
+	float:left;
+	width:24.5%;
+	margin-top: 1%;
+    margin-right: 0.5%;
+	text-align: center;
+}
+
+.box9 {
+	background-color:#B0C4DE;
+  	background-repeat:no-repeat;
+	background-size:56%;
+	background-image:url(img12/sinigang.jpg);
+	background-position: top 10% center;
+	height:400px;
+	padding:20px;
+	float:left;
+	width:24.5%;
+	margin-top: 1%;
+    margin-right: 0.5%;
+	text-align: center;
+}
+.box10 {
+	background-color: #ADD8E6;
+	background-repeat:no-repeat;
+	background-size:60%;
+	background-image:url(img12/lechon.jpg);
+	background-position: top 10% center;
+	height:400px;
+	padding:20px;
+	float:left;
+	width:24.5%;
+	margin-top: 1%;
+    margin-right: 0.5%;
+	text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+  .box1, .box2, .box3 {
+    width:100%; 
+  }
+  
+@media screen and (max-width:768px) {
+	.box4, .box5, .box6 {
+	width:100%;  }
+	.col-s-5 {width: 49.5%;}
+	.col-s-6 {width: 100%;}
+  }
+  
+@media screen and (max-width:320px) {
+  .box7, .box8, .box9, .box10 {
+    width:100%; 
+  }
+}
